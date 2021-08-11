@@ -1,0 +1,552 @@
+/*---------------------------------------
+
+1. DARK: 	#49545a;
+2. LIGHT:   #9FABB2;
+3. CYAN:    #26BAA4;
+4. BLUE:    #6173FF;
+
+----------------------------------------*/
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Bai Jamjuree', sans-serif;
+	color: #49545a;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+p {
+	color: #9fabb2;
+	line-height: 27px;
+	margin-bottom: 40px;
+}
+
+h2 {
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+/*---------------------------------------------------------------------------------------------
+									HEADER
+-----------------------------------------------------------------------------------------------*/
+
+header {
+	height: 100vh;
+	background-image: url(images/bg-header-desktop.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.header-text {
+	text-align: center;
+	width: 50%;
+}
+
+.header-text h1 {
+	font-size: 40px;
+	margin: 50px 0 25px 0;
+	font-weight: 600;
+}
+
+.buttons a {
+	font-size: 18px;
+	margin: 20px;
+	padding: 10px 20px;
+	border-radius: 50px;
+	color: white;
+}
+
+.ios-button {
+	background-color: #26baa4;
+	border-bottom: solid 3px #239f87;
+	-webkit-box-shadow: 0px 5px 23px -6px rgba(38, 186, 164, 0.63);
+	-moz-box-shadow: 0px 5px 23px -6px rgba(38, 186, 164, 0.63);
+	box-shadow: 0px 5px 23px -6px rgba(38, 186, 164, 0.63);
+}
+
+.ios-button:hover {
+	background-color: #5dccbb;
+	transition: all .3s ease-in-out;
+}
+
+.mac-button {
+	background-color: #6173ff;
+	border-bottom: solid 3px #5261d8;
+	-webkit-box-shadow: 0px 5px 23px -6px rgba(97, 115, 255, 1);
+	-moz-box-shadow: 0px 5px 23px -6px rgba(97, 115, 255, 1);
+	box-shadow: 0px 5px 23px -6px rgba(97, 115, 255, 1);
+}
+
+.mac-button:hover {
+	background-color: #8896ff;
+	transition: all .3s ease-in-out;
+}
+
+/*---------------------------------------------------------------------------------------------
+									ABOUT
+-----------------------------------------------------------------------------------------------*/
+
+.about-heading {
+	margin-bottom: 100px;
+	text-align: center;
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+.about-heading h2 {
+	margin-bottom: 20px;
+}
+
+.about-img {
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 100px;
+}
+
+.about-img img {
+	position: relative;
+	left: -50px;
+}
+
+.about-img-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 40%;
+}
+
+.about-img-text h3 {
+	font-size: 25px;
+}
+
+.about-img-text div {
+	margin: 20px 0 20px 10px;
+	width: 70%;
+}
+
+/*---------------------------------------------------------------------------------------------
+										ACCESS
+-----------------------------------------------------------------------------------------------*/
+
+#access h2 {
+	text-align: center;
+}
+
+#access p {
+	text-align: center;
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+#access img {
+	margin: 50px 20%;
+	width: 60%;
+}
+
+/*---------------------------------------------------------------------------------------------
+									WORKFLOW
+-----------------------------------------------------------------------------------------------*/
+
+#workflow {
+	text-align: center;
+}
+
+.workflow-container {
+	display: flex;
+	justify-content: center;
+}
+
+.workflow-card {
+	width: 25%;
+	margin: 25px 30px;
+}
+
+.workflow-card img {
+	height: 40px;
+	margin-bottom: 20px;
+}
+
+.workflow-card h3 {
+	margin-bottom: 10px;
+}
+
+/*---------------------------------------------------------------------------------------------
+									COMPANIES
+-----------------------------------------------------------------------------------------------*/
+
+#companies {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 150px 0;
+}
+
+#companies img {
+	margin: 0 40px;
+}
+
+/*---------------------------------------------------------------------------------------------
+									DOWNLOAD
+-----------------------------------------------------------------------------------------------*/
+
+#download {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	margin-bottom: 150px;
+}
+
+#download p {
+	width: 60%;
+}
+
+/*---------------------------------------------------------------------------------------------
+									CONTACT
+-----------------------------------------------------------------------------------------------*/
+
+#contact {
+	background-color: #f5f6f8;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 50px 0;
+}
+
+.contact-logo {
+	width: 60px;
+	height: 60px;
+	display: block;
+	margin-right: 50px;
+}
+
+.contact-links {
+	display: flex;
+	justify-content: space-between;
+}
+
+.contact-links div {
+	margin: 0 30px;
+}
+
+.contact-links a {
+	display: block;
+	margin: 10px 0;
+	transition: all .3s ease-in-out;
+}
+
+.contact-links a:hover {
+	color: #26BAA4;
+	transition: all .3s ease-in-out;
+}
+
+.contact-social img {
+	width: 20px;
+	margin: 0 10px;
+}
+
+.contact-container {
+	display: flex;
+	align-items: center;
+}
+
+.twitter:hover {
+	color: red;
+}
+
+/*---------------------------------------------------------------------------------------------
+									FOOTER
+-----------------------------------------------------------------------------------------------*/
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	text-align: center;
+}
+
+footer p {
+	margin-bottom: 0;
+}
+
+/*---------------------------------------------------------------------------------------------
+									RESPONSIVE
+-----------------------------------------------------------------------------------------------*/
+
+@media all and (max-width: 1100px) {
+
+	.about-img img {
+		width: 600px;
+		height: 500px;
+	}
+
+	#companies {
+		flex-wrap: wrap;
+		padding: 100px 0;
+	}
+
+	#companies img {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+}
+
+@media all and (max-width: 1000px) {
+
+	.header-text {
+		width: 70%;
+	}
+
+}
+
+@media all and (max-width: 900px) {
+
+	.about-img {
+		flex-direction: column;
+	}
+
+	.about-img img {
+		left: 0;
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-bottom: 30px;
+	}
+
+	.about-img-text {
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+		text-align: center;
+		align-items: center;
+	}
+
+	.about-img-text div {
+		width: 100%;
+	}
+
+	#access img {
+		width: 80%;
+		margin: 10px 10%;
+	}
+}
+
+@media all and (max-width: 800px) {
+
+	.header-text {
+		width: 80%;
+	}
+
+	.about-heading {
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
+	.about-img img {
+		left: 0;
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-bottom: 30px;
+		height: auto;
+	}
+
+	#access p {
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
+	.workflow-container {
+		flex-direction: column;
+	}
+
+	.workflow-card {
+		width: 80%;
+		margin: 20px 10%;
+	}
+
+	#contact {
+		flex-direction: column;
+		padding-top: 0;
+		padding-bottom: 30px;
+	}
+
+	.contact-container {
+		flex-direction: column;
+	}
+
+	.contact-logo {
+		margin: 30px 0;
+	}
+
+	.contact-links {
+		flex-direction: column;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
+}
+
+@media all and (max-width: 500px) {
+
+	.buttons {
+		display: flex;
+		flex-direction: column;
+		width: 90%;
+		text-align: center;
+	}
+
+	.header-text {
+		width: 90%;
+	}
+
+	#companies {
+		flex-direction: column;
+	}
+
+}
+
+@media all and (max-width: 375px) {
+
+	h2 {
+		font-size: 30px;
+	}
+
+	p {
+		font-size: 15px;
+	}
+
+	header {
+		background-image: url(images/bg-header-mobile.png);
+	}
+
+	.header-text {
+		width: 90%;
+	}
+
+	.header-text h1 {
+		font-size: 30px;
+	}
+
+	.buttons {
+		display: flex;
+		flex-direction: column;
+		width: 90%;
+	}
+
+	.buttons a {
+		margin: 10px 5%;
+		text-align: center;
+	}
+
+	.about-heading {
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	.about-img {
+		flex-direction: column;
+	}
+
+	.about-img img {
+		width: 90%;
+		left: 0;
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-bottom: 30px;
+	}
+
+	.about-img-text {
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	.about-img-text div {
+		margin: 10px 0;
+		text-align: center;
+	}
+
+	.about-img-text div p {
+		margin-bottom: 10px;
+	}
+
+	#access p {
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	#access img {
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	.workflow-container {
+		flex-direction: column;
+	}
+
+	.workflow-card {
+		width: 90%;
+		margin: 10px 5%;
+	}
+
+	#companies {
+		flex-direction: column;
+		padding: 50px 0;
+	}
+
+	#companies img {
+		margin: 30px 0;
+	}
+
+	#download {
+		margin: 100px 0;
+	}
+
+	#download p {
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	#contact {
+		flex-direction: column;
+		padding-top: 0;
+		padding-bottom: 30px;
+	}
+
+	.contact-container {
+		flex-direction: column;
+	}
+
+	.contact-logo {
+		margin: 30px 0;
+	}
+
+	.contact-links {
+		flex-direction: column;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
+}
